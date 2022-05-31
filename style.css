@@ -1,0 +1,10 @@
+.b {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.b button {
+  padding: 20px;
+  background-color: aqua;
+}
