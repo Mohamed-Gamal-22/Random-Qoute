@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
-    <h1 class="text-center mt-5 text-capitalize fw-bold">Quote of the Day</h1>
-    <h3 class="text-center my-3">Press the button below to recieve a random quote!</h3>
+  <body>
+    <div class="container bg-dark py-3 my-3">
+      <h1 class="text-center mt-5 text-capitalize text-white fw-bold">
+        Quote of the Day
+      </h1>
+      <h3 class="text-center my-3 text-warning">
+        Press the button below to recieve a random quote!
+      </h3>
 
-    <div class="b">
-        <button class="mx-auto my-5" id='myButton'>new qoute</button>
+      <div class="text-50 mx-auto text-center">
+        <button
+          class="mx-auto btn btn-outline-light fw-bold my-5"
+          id="myButton"
+        >
+          new qoute
+        </button>
+      </div>
+      <div class="text-center text-info w-75 mx-auto" id="myContent"></div>
     </div>
-    <div class="text-center" id="myContent">
-
-    </div>
-
-
 
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>
