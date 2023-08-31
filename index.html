@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="icon" href="speech.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Qoute For Today</title>
 
     <link rel="stylesheet" href="./bootstrap.min.css" />
     <link rel="stylesheet" href="./style.css" />
@@ -13,10 +19,16 @@
   <body>
     <div class="bg-dark py-3 vh-100 d-flex flex-column justify-content-center">
       <div class="container">
-        <h1 class="text-center mt-5 text-capitalize text-white fw-bold">
+        <h1
+          class="text-center mt-5 text-capitalize text-white fw-bold wow animate__fadeInUp"
+          data-wow-delay=".5s"
+        >
           Quote of the Day
         </h1>
-        <h3 class="text-center my-3 text-warning">
+        <h3
+          class="text-center my-3 text-warning wow animate__fadeInDownBig"
+          data-wow-delay=".5s"
+        >
           Press the button below to recieve a random quote!
         </h3>
 
@@ -32,6 +44,10 @@
       </div>
     </div>
 
+    <script src="wow.min.js"></script>
     <script src="./index.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
